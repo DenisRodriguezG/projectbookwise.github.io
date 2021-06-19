@@ -27,3 +27,6 @@ project with js, php and mysql
 <div><img src="bookwise_img/Captura de pantalla (140).png"/></div>
 <div><img src="bookwise_img/Captura de pantalla (141).png"/></div>
 <br>
+<h2>Step 8. Option books with your options</h2>
+<div><img src="bookwise_img/Captura de pantalla (132).png"/></div>
+<br>

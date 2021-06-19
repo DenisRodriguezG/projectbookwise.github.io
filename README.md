@@ -10,3 +10,7 @@ project with js, php and mysql
 <h2>Step 2. To register</h2>
 <div><img src="bookwise_img/Captura de pantalla (123).png"/></div>
 <br>
+<h2>Step 3. After of login</h2>
+<div><img src="bookwise_img/Captura de pantalla (124).png"/></div>
+<div><img src="bookwise_img/Captura de pantalla (125).png"/></div>
+<br>

@@ -32,6 +32,6 @@ project with js, php and mysql
 <br>
 <h2>Step 9. Options Aventura, Poema and Romance. The checkbox is your favorite books</h2>
 <div><img src="bookwise_img/Captura de pantalla (133).png"/></div>
-<div><img src="bookwise_img/Captura de pantalla (134).png"/></div>
 <div><img src="bookwise_img/Captura de pantalla (135).png"/></div>
+<div><img src="bookwise_img/Captura de pantalla (136).png"/></div>
 <br>

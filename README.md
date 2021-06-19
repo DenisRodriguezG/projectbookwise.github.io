@@ -23,3 +23,6 @@ project with js, php and mysql
 <h2>Step 6. Information of user</h2>
 <div><img src="bookwise_img/Captura de pantalla (131).png"/></div>
 <br>
+<h2>Step 7. The use update your information</h2>
+<div><img src="bookwise_img/Captura de pantalla (140).png"/></div>
+<br>

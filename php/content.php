@@ -40,7 +40,7 @@ while($_row = $_result->fetch(PDO::FETCH_ASSOC))
                 <ul class="books-gener">
                 <li><a href="aventura.php">Aventura</a></li>
                 <li><a href="poema.php">Poema</a></li>
-                <li><a href="romance">Romance</a></li>
+                <li><a href="romance.php">Romance</a></li>
                 </ul>
             </li>
             <li class="item"><a href="#contact" class="contact">contact</a></li>

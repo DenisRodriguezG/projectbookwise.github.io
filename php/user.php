@@ -25,7 +25,7 @@ if(!isset($_SESSION['email']))
                 <ul class="books-gener">
                 <li><a href="aventura.php">Aventura</a></li>
                 <li><a href="poema.php">Poema</a></li>
-                <li><a href="romance">Romance</a></li>
+                <li><a href="romance.php">Romance</a></li>
                 </ul>
             </li>
             <li class="item"><a href="#contact" class="contact">contact</a></li>
@@ -88,14 +88,6 @@ if(!isset($_SESSION['email']))
             <div class="content-likes">
                 <h1>Your books favorite</h1>
                 <div class="books">
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
-                    <div><img src="../img/aventura/laspruebasdeapolo.jpeg" alt=""></div>
                 </div>
             </div>
         </section>

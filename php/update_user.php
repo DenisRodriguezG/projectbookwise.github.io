@@ -47,6 +47,12 @@ if(!empty($_name) && !empty($_firstname) && !empty($_lastname) && !empty($_email
             $_result2->bindValue(':u', $_email);
             $_result2->bindValue(":s", $_sessionemail);
             $_result2->execute();
+
+            $_query3 = "UPDATE books_favorite SET user=:u WHERE user=:s";
+            $_result3 = $_connectdb->prepare($_query3);
+            $_result3->bindValue(":u", $_email);
+            $_result3->bindValue(":s", $_sessionemail);
+            $_result3->execute();
             }
         }
         catch(Excepcion $_e)

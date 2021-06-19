@@ -15,6 +15,9 @@ const your_coments = document.querySelector('.your-coments');
 
 const errorE = document.querySelector('.error');
 
+const bookslike = document.querySelector('.books');
+const div = document.createElement('div');
+
 let sessionE = session_email.value;
 let user_e = user_email.value;
 let temp;
@@ -107,14 +110,13 @@ send_updateBtn.addEventListener('click', () => {
             session_email.value = temp;
             user_email.value = temp;
             console.log(temp);
-            showUserInfo();
             history.go();
+            showUserInfo();
             console.log(data1);
         }
     }  
     const dataForm = new FormData(update_form);
     xml.send(dataForm);
-
 });
 showUserInfo();
 
@@ -151,7 +153,24 @@ const coments = () =>
     xml.send('email='+user_email.value);
 }
 coments();
-console.log(user_email.value)
+console.log(user_email.value);
+const showAllLikeBooks = (user) => {
+    const xml = new XMLHttpRequest();
+    xml.open('POST', 'get_likes.php', true);
+    xml.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xml.onload = () => {
+        if(xml.readyState === XMLHttpRequest.DONE)
+        {
+            if(xml.status === 200)
+            {
+                let data = xml.response;
+                bookslike.innerHTML = data;
+            }
+        }
+    }
+    xml.send("email="+user);
+}
+showAllLikeBooks(user_email.value);
 /*let jsonString = '{"name": "Denis", "lastname": "Perez"}';
 let json = JSON.parse(jsonString);
 console.log(json);*/

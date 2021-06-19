@@ -325,6 +325,7 @@
     }
     main
     {
+        position: relative;
         width: 100%;
     }
     main > .welcome
@@ -719,5 +720,96 @@
         margin-left: 1px;
     }
 
+
+
+
+
+
+
+
+    /*Aventura*/
+    main > .showBooks
+    {
+        margin-top: 5px;
+        width: 100%;
+        padding: 5px;
+        background-color: rgb(48, 47, 47);
+    }
+    main > .showBooks > .content-books
+    {
+        width: 100%;
+        padding: 4px;
+        background-color: rgb(184, 172, 172);
+    }
+    main > .showBooks > .content-books > .books
+    {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        padding-top: 4px;
+    }
+    main > .showBooks > .content-books > h1
+    {
+        text-align: center;
+    }
+    main > .showBooks > .content-books > .books > div
+    {
+        margin-left: 1.5px;
+        height: 240px;
+    }
+    main > .showBooks > .content-books > .books > div > img
+    {
+        width: 167px;
+        height: 200px;
+    }
+    main > .showBooks > .content-books > .books > div > .box
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aliceblue;
+        padding: 2px;
+    }
+    main > .showBooks > .content-books > .books > div > .box > p
+    {
+        background-color: rgb(190, 185, 185);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        border-radius: 2px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    }
+    main > .info-book
+    {
+        position: fixed;
+        width: 80%;
+        left: 40px;
+        top: 100px;
+        background-color: rgb(94, 90, 90);
+        padding: 5px;
+        display: none;
+    }
+    main > .info-book > .content-info
+    {
+        background-color: aliceblue;
+        padding: 4px;
+        text-align: justify;
+    }
+    main > .info-book > .content-info > h3
+    {
+        text-align: center;
+    }
+    main > .info-book > .content-info > .hidden
+    {
+        margin-top: 5px;
+        width: 100%;
+        padding: 3px;
+        font-size: 18px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(151, 141, 141);
+    }
 }
 

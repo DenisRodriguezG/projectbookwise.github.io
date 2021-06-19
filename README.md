@@ -14,3 +14,6 @@ project with js, php and mysql
 <div><img src="bookwise_img/Captura de pantalla (124).png"/></div>
 <div><img src="bookwise_img/Captura de pantalla (125).png"/></div>
 <br>
+<h2>Step 4. When the user added suggerens</h2>
+<div><img src="bookwise_img/Captura de pantalla (129).png"/></div>
+<br>

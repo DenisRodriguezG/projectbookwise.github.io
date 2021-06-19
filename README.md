@@ -20,3 +20,6 @@ project with js, php and mysql
 <h2>Step 5. Let´s go to option user</h2>
 <div><img src="bookwise_img/Captura de pantalla (126).png"/></div>
 <br>
+<h2>Step 6. Information of user</h2>
+<div><img src="bookwise_img/Captura de pantalla (131).png"/></div>
+<br>

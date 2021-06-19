@@ -35,3 +35,6 @@ project with js, php and mysql
 <div><img src="bookwise_img/Captura de pantalla (135).png"/></div>
 <div><img src="bookwise_img/Captura de pantalla (136).png"/></div>
 <br>
+<h2>Step 10. Before to register, if email exits the program give a message</h2>
+<div><img src="bookwise_img/Captura de pantalla (144).png"/></div>
+<br>
